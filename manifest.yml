@@ -1,0 +1,5 @@
+---
+applications:
+- name: welcome-cf
+  memory: 512M
+  host: welcome-cf
