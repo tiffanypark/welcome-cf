@@ -6,9 +6,9 @@ image_resource:
     repository: maven
     tag: latest
 inputs:
-  - name: build-output
+  - name: welcome-cf-git/target
 outputs:
-  - name: build-output
+  - name: welcome-cf-git/target
 run:
   path: find
   args: ["."]

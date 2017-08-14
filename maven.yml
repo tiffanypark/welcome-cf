@@ -8,7 +8,7 @@ source:
 inputs:
   - name: welcome-cf-git
 outputs:
-  - name: build-output
+  - name: welcome-cf-git/target
 run:
   path:  mvn
   args: ["-f", "welcome-cf-git/pom.xml", "package"]
